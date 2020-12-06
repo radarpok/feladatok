@@ -73,21 +73,18 @@ module.exports.feladatok=()=>{
             20: "megkeresni es letolteni a felhobe feltoltott konyveket",
             21: "interaktiv tartalomjegyzeket irni aditi singhal - how to memorize anything c. konyvehez",
             22: "utananezni miert nem mukodik a 'del', 'home' es 'end' gyorsbillentyu",
-            23: "megkeresni a konyvek mappat hova toltottem fel",
+            23: "alomtabla kepeit integralni a fresh portfolio site-al (es normalizalni az animacioit)",
             24: "erdekolesi teruleteket osszeszurni a projektekkel",
             25: "szerv_meridianok.ods fajlt egybevonni az ayurvedikus heti receptekkel es az edzestervvel",
             26: "erettsegi feladatsorokat megkeresni",
             27: "install a hover modal",
             28: "edzesi naplo vezetese (2 naponta - 20:00-ig max)",
-            29: "telepitett_prgoramok.html-be integralni az aktualis datumot",
-            30: "flow dia folders.ods-t folytatni",
-            31: "megkeresni a korabban win10-en letrehozott mindmapeket",
-            32: "schedule mappa html-css tartalmat navigalhatova tenni a jobbra-balra billentyukkel",
-            33: "bevinni a one-click-copy funkciot a telepitett_programok.html-be",
-            34: "irni egy scriptet ami egy paranccsal feltelepit minden rogzitett programkodot linuxban",
-            35: "alomtabla kepeit integralni a fresh portfolio site-al (es normalizalni az animacioit)"
+            29: "flow dia folders.ods-t folytatni",
+            30: "schedule mappa html-css tartalmat navigalhatova tenni a jobbra-balra billentyukkel",
+            31: "bevinni a one-click-copy funkciot a telepitett_programok.html-be",
+            32: "irni egy scriptet ami egy paranccsal feltelepit minden rogzitett programkodot linuxban",
         }
-return console.log(todo)
+    return console.log(todo)
 };
 
 module.exports.olvasas=()=>{
@@ -107,12 +104,13 @@ module.exports.olvasas=()=>{
 module.exports.elvegezve=()=>{
     let done = {
             1: "eltavolitott alkalmazasok (win10 alaphelyzetbe allitasa utan) html-jét intendalni es template-kent hasznalni a linuxra telepitett programokhoz",
-            2: "befejezni a felhoben tarolt mappak letolteset",
+            2: "befejezni a felhoben tarolt mappak letolteset (kiveve: mobilszolgaltatok.ods, diakhitel_infok.ods, konyvek)",
             3: "alkalmazni a quiz formot javascritben az app.plant_learning-en",
             4: "npm install boron",
             5: "megkeresni a projekteket es a szukseges lepeseket osszefoglalo .ods fajlt",
             6: "malnatovek metszese csutortok esteig",
-            7: "portfolio oldal kidolgozasat elkezdeni"
+            7: "portfolio oldal kidolgozasat elkezdeni",
+            8: "telepitett_prgoramok.html-be integralni az aktualis datumot"
     }
     return console.log(done)
 };
